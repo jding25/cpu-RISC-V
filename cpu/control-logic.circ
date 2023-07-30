@@ -1515,18 +1515,18 @@
 1281 1681 1301 1381 41 41 41 1041
 10c1 1141 1241 12c1 16c1 1341 13c1 842
 842 842 4*64 74 74 1067 17c7 2069
-204b
+2041
 </a>
       <a name="dataWidth" val="16"/>
     </comp>
-    <comp lib="5" loc="(1027,307)" name="Text">
+    <comp lib="5" loc="(1025,305)" name="Text">
       <a name="font" val="SansSerif plain 14"/>
       <a name="text" val="Reminder: If using ROM, use combinational logic for PCSel"/>
     </comp>
     <comp lib="5" loc="(170,90)" name="Text">
       <a name="text" val="INPUTS to your circuit"/>
     </comp>
-    <comp lib="5" loc="(245,449)" name="Text">
+    <comp lib="5" loc="(245,445)" name="Text">
       <a name="font" val="SansSerif plain 14"/>
       <a name="text" val="Connect ROM Input here -&gt;"/>
     </comp>
