@@ -173,11 +173,20 @@
       <a name="value" val="0x7"/>
       <a name="width" val="3"/>
     </comp>
+    <comp lib="0" loc="(1130,1320)" name="Constant">
+      <a name="value" val="0x0"/>
+      <a name="width" val="3"/>
+    </comp>
     <comp lib="0" loc="(1130,920)" name="Constant">
       <a name="value" val="0x5"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1150,1060)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="funct3"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1150,1300)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="funct3"/>
       <a name="width" val="3"/>
@@ -244,6 +253,10 @@
       <a name="facing" val="east"/>
       <a name="label" val="BType"/>
     </comp>
+    <comp lib="0" loc="(1200,1270)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="IType"/>
+    </comp>
     <comp lib="0" loc="(1200,870)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="BType"/>
@@ -251,6 +264,18 @@
     <comp lib="0" loc="(1200,950)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="BType"/>
+    </comp>
+    <comp lib="0" loc="(1250,1210)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="JType"/>
+    </comp>
+    <comp lib="0" loc="(1250,1370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="UType"/>
+    </comp>
+    <comp lib="0" loc="(1250,1430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="UType"/>
     </comp>
     <comp lib="0" loc="(1280,530)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -267,6 +292,18 @@
     </comp>
     <comp lib="0" loc="(1300,1050)" name="Tunnel">
       <a name="label" val="is_bgeu"/>
+    </comp>
+    <comp lib="0" loc="(1300,1210)" name="Tunnel">
+      <a name="label" val="is_jal"/>
+    </comp>
+    <comp lib="0" loc="(1300,1290)" name="Tunnel">
+      <a name="label" val="is_jalr"/>
+    </comp>
+    <comp lib="0" loc="(1300,1370)" name="Tunnel">
+      <a name="label" val="is_auipc"/>
+    </comp>
+    <comp lib="0" loc="(1300,1430)" name="Tunnel">
+      <a name="label" val="is_lui"/>
     </comp>
     <comp lib="0" loc="(1300,890)" name="Tunnel">
       <a name="label" val="is_bge"/>
@@ -1297,6 +1334,7 @@
     <comp lib="1" loc="(1110,660)" name="AND Gate"/>
     <comp lib="1" loc="(1110,720)" name="AND Gate"/>
     <comp lib="1" loc="(1280,1050)" name="AND Gate"/>
+    <comp lib="1" loc="(1280,1290)" name="AND Gate"/>
     <comp lib="1" loc="(1280,560)" name="OR Gate">
       <a name="inputs" val="6"/>
     </comp>
@@ -1360,6 +1398,9 @@
       <a name="select_enc" val="6"/>
     </comp>
     <comp lib="3" loc="(1210,1070)" name="Comparator">
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="3" loc="(1210,1310)" name="Comparator">
       <a name="width" val="3"/>
     </comp>
     <comp lib="3" loc="(1210,910)" name="Comparator">
@@ -1597,8 +1638,10 @@
     <wire from="(1120,650)" to="(1220,650)"/>
     <wire from="(1130,1000)" to="(1170,1000)"/>
     <wire from="(1130,1080)" to="(1170,1080)"/>
+    <wire from="(1130,1320)" to="(1170,1320)"/>
     <wire from="(1130,920)" to="(1170,920)"/>
     <wire from="(1150,1060)" to="(1170,1060)"/>
+    <wire from="(1150,1300)" to="(1170,1300)"/>
     <wire from="(1150,900)" to="(1170,900)"/>
     <wire from="(1150,980)" to="(1170,980)"/>
     <wire from="(120,1020)" to="(200,1020)"/>
@@ -1612,9 +1655,11 @@
     <wire from="(120,920)" to="(200,920)"/>
     <wire from="(120,970)" to="(200,970)"/>
     <wire from="(1200,1030)" to="(1230,1030)"/>
+    <wire from="(1200,1270)" to="(1230,1270)"/>
     <wire from="(1200,870)" to="(1230,870)"/>
     <wire from="(1200,950)" to="(1230,950)"/>
     <wire from="(1210,1070)" to="(1230,1070)"/>
+    <wire from="(1210,1310)" to="(1230,1310)"/>
     <wire from="(1210,530)" to="(1210,550)"/>
     <wire from="(1210,550)" to="(1230,550)"/>
     <wire from="(1210,570)" to="(1210,600)"/>
@@ -1627,7 +1672,11 @@
     <wire from="(1220,580)" to="(1230,580)"/>
     <wire from="(1230,450)" to="(1230,530)"/>
     <wire from="(1230,590)" to="(1230,720)"/>
+    <wire from="(1250,1210)" to="(1300,1210)"/>
+    <wire from="(1250,1370)" to="(1300,1370)"/>
+    <wire from="(1250,1430)" to="(1300,1430)"/>
     <wire from="(1280,1050)" to="(1300,1050)"/>
+    <wire from="(1280,1290)" to="(1300,1290)"/>
     <wire from="(1280,530)" to="(1280,540)"/>
     <wire from="(1280,540)" to="(1290,540)"/>
     <wire from="(1280,560)" to="(1290,560)"/>
