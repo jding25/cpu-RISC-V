@@ -252,10 +252,6 @@
       <a name="facing" val="south"/>
       <a name="label" val="is_jal"/>
     </comp>
-    <comp lib="0" loc="(1280,640)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="is_jal"/>
-    </comp>
     <comp lib="0" loc="(130,660)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Instruction"/>
@@ -1279,9 +1275,7 @@
     </comp>
     <comp lib="1" loc="(1280,890)" name="AND Gate"/>
     <comp lib="1" loc="(1280,970)" name="AND Gate"/>
-    <comp lib="1" loc="(1340,560)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
+    <comp lib="1" loc="(1350,560)" name="OR Gate"/>
     <comp lib="1" loc="(660,910)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
@@ -1598,14 +1592,14 @@
     <wire from="(1230,590)" to="(1230,720)"/>
     <wire from="(1280,1050)" to="(1300,1050)"/>
     <wire from="(1280,530)" to="(1280,540)"/>
-    <wire from="(1280,540)" to="(1290,540)"/>
+    <wire from="(1280,540)" to="(1300,540)"/>
     <wire from="(1280,560)" to="(1290,560)"/>
-    <wire from="(1280,580)" to="(1280,640)"/>
-    <wire from="(1280,580)" to="(1290,580)"/>
     <wire from="(1280,890)" to="(1300,890)"/>
     <wire from="(1280,970)" to="(1300,970)"/>
+    <wire from="(1290,560)" to="(1290,580)"/>
+    <wire from="(1290,580)" to="(1300,580)"/>
     <wire from="(130,660)" to="(140,660)"/>
-    <wire from="(1340,560)" to="(1370,560)"/>
+    <wire from="(1350,560)" to="(1370,560)"/>
     <wire from="(140,230)" to="(180,230)"/>
     <wire from="(1530,1010)" to="(1680,1010)"/>
     <wire from="(1530,1040)" to="(1690,1040)"/>
